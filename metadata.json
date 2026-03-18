@@ -63,5 +63,18 @@
         "created_at": "2026-03-18T05:41:33.801Z",
         "updated_at": "2026-03-18T05:41:33.801Z",
         "type": "plugin"
+    },
+    {
+        "id": "a8svM0E-dvPJMxMo9mJ-83Euw6k4pF0P",
+        "plugin": "vault-explorer",
+        "language": "zh-cn",
+        "version": "1.47.4",
+        "supported_versions": "1.47.4",
+        "title": "Vault Explorer",
+        "description": "Vault Explorer Localization & Tweaks",
+        "hash": "44c0eb3344c0eb3344c0eb3344c0eb33",
+        "created_at": "2026-03-18T05:41:38.840Z",
+        "updated_at": "2026-03-18T05:41:38.840Z",
+        "type": "plugin"
     }
 ]
