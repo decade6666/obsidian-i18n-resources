@@ -1,0 +1,392 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "various-complements",
+        "version": "1.0.0",
+        "title": "Various Complements",
+        "description": "Various Complements Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "11.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Displayed Word",
+                    "target": "显示的词"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add a word to a custom dictionary",
+                    "target": "将词添加到自定义词典"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Aliases (for each line)",
+                    "target": "别名（每行一个）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "invalid tone number:",
+                    "target": "无效的声调编号："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "--- history ---",
+                    "target": "--- 历史记录 ---"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "It is handy if you use Vim mode because you can switch to Normal mode by one ESC, whether it shows suggestions or not.",
+                    "target": "如果您使用 Vim 模式，此功能将非常实用，因为无论是否显示建议，您都可以通过按一次 ESC 切换到普通模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Propagate ESC",
+                    "target": "传递 ESC"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable on mobile",
+                    "target": "在移动端禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show log about performance in a console",
+                    "target": "在控制台中显示性能相关日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Filter settings",
+                    "target": "筛选器设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add to custom dictionary",
+                    "target": "添加到自定义词典"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠Unexpected error",
+                    "target": "⚠发生意外错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reload custom dictionaries",
+                    "target": "重新加载自定义词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reload current vault",
+                    "target": "重新加载当前知识库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换匹配策略",
+                    "target": "切换匹配策略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动切换补全",
+                    "target": "自动切换自动补全"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show suggestions",
+                    "target": "显示建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide suggestions",
+                    "target": "隐藏建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fallback linkify",
+                    "target": "回退链接化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add a word to a custom dictionary",
+                    "target": "将单词添加到自定义词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy plugin settings",
+                    "target": "复制插件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The path to `cedict_ts.u8`. You can download it from ",
+                    "target": "`cedict_ts.u8` 的路径。您可以从以下位置下载："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " the site ",
+                    "target": "该站点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠ `partial` is more than 10 times slower than `prefix`",
+                    "target": "⚠ `partial` 的速度比 `prefix` 慢 10 倍以上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Key customization",
+                    "target": "按键自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "except for the space key",
+                    "target": "空格键除外"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "'Ctrl a' means pressing the Ctrl key and the A key.",
+                    "target": "“Ctrl a”表示同时按下 Ctrl 键和 A 键。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "'Enter|Tab' means pressing the Enter key or the Tab key.",
+                    "target": "“Enter|Tab”表示按下 Enter 键或 Tab 键。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Use 'Mod' instead of 'Ctrl' on Windows or 'Cmd' on macOS.",
+                    "target": "在 Windows 或 macOS 上请使用“Mod”替代“Ctrl”或“Cmd”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠ Glob patterns add processing overhead. Use prefix path patterns above for better performance when possible.",
+                    "target": "⚠ Glob 模式会增加处理开销。尽可能优先使用上方的前缀路径模式以获得更佳性能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Intelligent suggestion prioritization",
+                    "target": "智能建议优先级排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Type custom alias",
+                    "target": "输入自定义别名"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setPlaceholder(\"Filter settings\")",
+                    "target": "setPlaceholder(\"Filter settings\")"
+                },
+                {
+                    "source": "setName(\"Propagate ESC\")",
+                    "target": "setName(\"Propagate ESC\")"
+                },
+                {
+                    "source": "setDesc(\r\n      \"It is handy if you use Vim mode because you can switch to Normal mode by one ESC, whether it shows suggestions or not.\"\r\n    )",
+                    "target": "setDesc(\r\n      \"It is handy if you use Vim mode because you can switch to Normal mode by one ESC, whether it shows suggestions or not.\"\r\n    )"
+                },
+                {
+                    "source": "setName(\"Disable on mobile\")",
+                    "target": "setName(\"Disable on mobile\")"
+                },
+                {
+                    "source": "setName(\"Show log about performance in a console\")",
+                    "target": "setName(\"Show log about performance in a console\")"
+                },
+                {
+                    "source": "Notice(\"\\u26A0Unexpected error\")",
+                    "target": "Notice(\"\\u26A0Unexpected error\")"
+                },
+                {
+                    "source": "log(\"--- history ---\")",
+                    "target": "log(\"--- history ---\")"
+                },
+                {
+                    "source": "Notice(`Can't open ${dictionaryPath}`)",
+                    "target": "Notice(`Can't open ${dictionaryPath}`)"
+                },
+                {
+                    "source": "setTitle(\"Add to custom dictionary\")",
+                    "target": "setTitle(\"Add to custom dictionary\")"
+                },
+                {
+                    "source": "text: \"Main\"",
+                    "target": "text: \"Main\""
+                },
+                {
+                    "source": "text: \"The path to `cedict_ts.u8`. You can download it from \"",
+                    "target": "text: \"The path to `cedict_ts.u8`. You can download it from \""
+                },
+                {
+                    "source": "text: \" the site \"",
+                    "target": "text: \" the site \""
+                },
+                {
+                    "source": "text: `\\u26A0 cedict_ts.u8 doesn't exist in ${this.plugin.settings.cedictPath}.`",
+                    "target": "text: `\\u26A0 cedict_ts.u8 doesn't exist in ${this.plugin.settings.cedictPath}.`"
+                },
+                {
+                    "source": "text: \"\\u26A0 `partial` is more than 10 times slower than `prefix`\"",
+                    "target": "text: \"\\u26A0 `partial` is more than 10 times slower than `prefix`\""
+                },
+                {
+                    "source": "text: \"Appearance\"",
+                    "target": "text: \"Appearance\""
+                },
+                {
+                    "source": "text: \"Key customization\"",
+                    "target": "text: \"Key customization\""
+                },
+                {
+                    "source": "text: \"keycode.info\"",
+                    "target": "text: \"keycode.info\""
+                },
+                {
+                    "source": "text: \"event.key\"",
+                    "target": "text: \"event.key\""
+                },
+                {
+                    "source": "text: \"except for the space key\"",
+                    "target": "text: \"except for the space key\""
+                },
+                {
+                    "source": "text: \"Space\"",
+                    "target": "text: \"Space\""
+                },
+                {
+                    "source": "text: \"'Ctrl a' means pressing the Ctrl key and the A key.\"",
+                    "target": "text: \"'Ctrl a' means pressing the Ctrl key and the A key.\""
+                },
+                {
+                    "source": "text: \"'Enter|Tab' means pressing the Enter key or the Tab key.\"",
+                    "target": "text: \"'Enter|Tab' means pressing the Enter key or the Tab key.\""
+                },
+                {
+                    "source": "text: \"Use 'Mod' instead of 'Ctrl' on Windows or 'Cmd' on macOS.\"",
+                    "target": "text: \"Use 'Mod' instead of 'Ctrl' on Windows or 'Cmd' on macOS.\""
+                },
+                {
+                    "source": "text: \"\\u26A0 Glob patterns add processing overhead. Use prefix path patterns above for better performance when possible.\"",
+                    "target": "text: \"\\u26A0 Glob patterns add processing overhead. Use prefix path patterns above for better performance when possible.\""
+                },
+                {
+                    "source": "text: \"Intelligent suggestion prioritization\"",
+                    "target": "text: \"Intelligent suggestion prioritization\""
+                },
+                {
+                    "source": "text: \"Mobile\"",
+                    "target": "text: \"Mobile\""
+                },
+                {
+                    "source": "text: \"Debug\"",
+                    "target": "text: \"Debug\""
+                },
+                {
+                    "source": "description: `Appeared in -> ${path2}`",
+                    "target": "description: `Appeared in -> ${path2}`"
+                },
+                {
+                    "source": "text: `${description}`",
+                    "target": "text: `${description}`"
+                },
+                {
+                    "source": "textContent = \"Displayed Word\"",
+                    "target": "textContent = \"Displayed Word\""
+                },
+                {
+                    "source": "textContent = \"Add a word to a custom dictionary\"",
+                    "target": "textContent = \"Add a word to a custom dictionary\""
+                },
+                {
+                    "source": "textContent = \"Dictionary\"",
+                    "target": "textContent = \"Dictionary\""
+                },
+                {
+                    "source": "textContent = \"Description\"",
+                    "target": "textContent = \"Description\""
+                },
+                {
+                    "source": "textContent = \"Aliases (for each line)\"",
+                    "target": "textContent = \"Aliases (for each line)\""
+                },
+                {
+                    "source": "description = \"\"",
+                    "target": "description = \"\""
+                },
+                {
+                    "source": "text: \"---\"",
+                    "target": "text: \"---\""
+                },
+                {
+                    "source": "name: \"Reload custom dictionaries\"",
+                    "target": "name: \"Reload custom dictionaries\""
+                },
+                {
+                    "source": "name: \"Reload current vault\"",
+                    "target": "name: \"Reload current vault\""
+                },
+                {
+                    "source": "name: \"切换匹配策略\"",
+                    "target": "name: \"切换匹配策略\""
+                },
+                {
+                    "source": "name: \"自动切换补全\"",
+                    "target": "name: \"自动切换补全\""
+                },
+                {
+                    "source": "name: \"Show suggestions\"",
+                    "target": "name: \"Show suggestions\""
+                },
+                {
+                    "source": "name: \"Hide suggestions\"",
+                    "target": "name: \"Hide suggestions\""
+                },
+                {
+                    "source": "name: \"Fallback linkify\"",
+                    "target": "name: \"Fallback linkify\""
+                },
+                {
+                    "source": "name: \"Add a word to a custom dictionary\"",
+                    "target": "name: \"Add a word to a custom dictionary\""
+                },
+                {
+                    "source": "name: \"Copy plugin settings\"",
+                    "target": "name: \"Copy plugin settings\""
+                }
+            ]
+        }
+    }
+}
