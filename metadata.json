@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "IM2GPv9qdLN7STSau68sQ_T02Ntx10eW",
+        "plugin": "cmenu-plugin",
+        "language": "zh-cn",
+        "version": "1.1.2",
+        "supported_versions": "1.1.2",
+        "title": "cMenu",
+        "description": "cMenu Localization & Tweaks",
+        "hash": "32b4470032b4470032b4470032b44700",
+        "created_at": "2026-03-18T05:40:53.856Z",
+        "updated_at": "2026-03-18T05:40:53.856Z",
+        "type": "plugin"
+    }
+]
