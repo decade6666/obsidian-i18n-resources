@@ -11,5 +11,18 @@
         "created_at": "2026-03-18T05:40:53.856Z",
         "updated_at": "2026-03-18T05:40:53.856Z",
         "type": "plugin"
+    },
+    {
+        "id": "V7S0sj9370ICbrUn3muLtxURv3wCcH67",
+        "plugin": "highlightr-plugin",
+        "language": "zh-cn",
+        "version": "1.2.2",
+        "supported_versions": "1.2.2",
+        "title": "Highlightr",
+        "description": "Highlightr Localization & Tweaks",
+        "hash": "4bc8db404bc8db404bc8db404bc8db40",
+        "created_at": "2026-03-18T05:41:04.546Z",
+        "updated_at": "2026-03-18T05:41:04.546Z",
+        "type": "plugin"
     }
 ]
