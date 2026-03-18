@@ -50,5 +50,18 @@
         "created_at": "2026-03-18T05:41:18.167Z",
         "updated_at": "2026-03-18T05:41:18.167Z",
         "type": "plugin"
+    },
+    {
+        "id": "88o8GdWzW-ZDi6dmiSg90iCb57Czr_FY",
+        "plugin": "various-complements",
+        "language": "zh-cn",
+        "version": "11.0.0",
+        "supported_versions": "11.0.0",
+        "title": "Various Complements",
+        "description": "Various Complements Localization & Tweaks",
+        "hash": "496d7527496d7527496d7527496d7527",
+        "created_at": "2026-03-18T05:41:33.801Z",
+        "updated_at": "2026-03-18T05:41:33.801Z",
+        "type": "plugin"
     }
 ]
