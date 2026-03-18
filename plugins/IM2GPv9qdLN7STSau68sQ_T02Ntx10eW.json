@@ -1,0 +1,756 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cmenu-plugin",
+        "version": "1.0.0",
+        "title": "cMenu",
+        "description": "cMenu Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "如果你喜欢这个插件并考虑捐款支持继续开发，请使用下面的按钮！",
+                    "target": "如果您喜欢此插件并考虑通过捐款支持持续开发，请使用下方按钮！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Created with ❤️ by Chetachi",
+                    "target": "由 Chetachi 倾心打造"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef requires a render function but was given %s.",
+                    "target": "forwardRef 需要一个 render 函数，但实际提供的是 %s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef render functions accept exactly two parameters: props and ref. %s",
+                    "target": "forwardRef 的 render 函数仅接受两个参数：props 和 ref。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed %s type: %s",
+                    "target": "失败的 %s 类型：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?",
+                    "target": "组件 %s 声明了 `PropTypes` 而非 `propTypes`。是否拼写错误了属性赋值？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid attribute `ref` supplied to `React.Fragment`.",
+                    "target": "向 `React.Fragment` 提供了无效的属性 `ref`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid attribute name: `%s`",
+                    "target": "无效的属性名称：`%s`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported style property %s. Did you mean %s?",
+                    "target": "不支持的样式属性 %s。您是否指的是 %s？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported vendor-prefixed style property %s. Did you mean %s?",
+                    "target": "不支持带供应商前缀的样式属性 %s。您是否指的是 %s？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`NaN` is an invalid value for the `%s` css style property.",
+                    "target": "`NaN` 不是 `%s` CSS 样式属性的有效值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`Infinity` is an invalid value for the `%s` css style property.",
+                    "target": "`Infinity` 不是 `%s` CSS 样式属性的有效值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid ARIA attribute `%s`. ARIA attributes follow the pattern aria-* and must be lowercase.",
+                    "target": "无效的 ARIA 属性 `%s`。ARIA 属性遵循 aria-* 模式，且必须为小写。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid ARIA attribute `%s`. Did you mean `%s`?",
+                    "target": "无效的 ARIA 属性 `%s`。您是否想要 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown ARIA attribute `%s`. Did you mean `%s`?",
+                    "target": "未知的 ARIA 属性 `%s`。您是否想要 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid event handler property `%s`. Did you mean `%s`?",
+                    "target": "无效的事件处理程序属性 `%s`。您是否想要 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown event handler property `%s`. It will be ignored.",
+                    "target": "未知的事件处理程序属性 `%s`。将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid DOM property `%s`. Did you mean `%s`?",
+                    "target": "无效的 DOM 属性 `%s`。您是否想要 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Only strings and numbers are supported as <option> children.",
+                    "target": "<option> 的子节点仅支持字符串和数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected pop.",
+                    "target": "意外的 pop。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A component",
+                    "target": "一个组件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: Violet",
+                    "target": "color: Violet"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%ccMenu refreshed",
+                    "target": "%ccMenu 已刷新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: #989cab",
+                    "target": "color: #989cab"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "cMenu unloaded",
+                    "target": "cMenu 已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择cMenu在重新生成时附加的位置。要查看更改，请点击下面或状态栏菜单中的刷新按钮。",
+                    "target": "选择 cMenu 在重新生成时的附加位置。要查看更改，请单击下方或状态栏菜单中的“刷新”按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在玻璃变形和cMenu的默认样式之间进行选择。要查看更改，请点击下面或状态栏菜单中的刷新按钮。",
+                    "target": "在“玻璃变形”与 cMenu 的默认样式之间进行选择。要查看更改，请单击下方或状态栏菜单中的“刷新”按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择要在cMenu上显示的每行的列数。要查看更改，请点击下面或状态栏菜单中的刷新按钮。",
+                    "target": "选择 cMenu 中每行显示的列数。要查看更改，请单击下方或状态栏菜单中的“刷新”按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "cMenu只有在添加或删除命令后才会自动刷新。要查看cMenu的UI更改（以上设置更改），请使用刷新按钮。如果忘记刷新设置，不用担心。cMenu状态栏菜单中还有一个刷新按钮。",
+                    "target": "cMenu 仅在添加或移除命令后才会自动刷新。若要使 cMenu 的 UI 更改（上述设置更改）生效，请使用“刷新”按钮。即使忘记刷新也无需担心：cMenu 状态栏菜单中同样提供“刷新”按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "将一个命令从Obsidian的命令库添加到cMenu中。若要重新排序命令，请拖放命令项。要删除它们，请使用命令项右侧的删除按钮。重新排序命令后，cMenu不会自动刷新。使用上面的刷新按钮。",
+                    "target": "将命令从 Obsidian 的命令面板添加到 cMenu。若要重新排序命令，请拖放命令项。若要删除命令，请使用命令项右侧的删除按钮。重新排序后，cMenu 不会自动刷新；请使用上方的“刷新”按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "cMenu附加方法",
+                    "target": "cMenu 扩展方法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "cMenu美学",
+                    "target": "cMenu 外观"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "cMenu列",
+                    "target": "cMenu 列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "c菜单刷新",
+                    "target": "cMenu 刷新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "cMenu命令",
+                    "target": "cMenu 命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Choose an icon",
+                    "target": "选择图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Choose a command",
+                    "target": "选择命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "隐藏和显示",
+                    "target": "隐藏与显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "feather.toSvg() is deprecated. Please use feather.icons[name].toSvg() instead.",
+                    "target": "feather.toSvg() 已弃用。请改用 feather.icons[name].toSvg()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%s(...) is deprecated in plain JavaScript React classes. %s",
+                    "target": "%s(...) 在纯 JavaScript 的 React 类组件中已弃用。%s"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line>",
+                    "target": "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path>",
+                    "target": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu：切换粗体",
+                    "target": "cMenu：切换为粗体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu：切换斜体",
+                    "target": "cMenu：切换为斜体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu：切换删除线",
+                    "target": "cMenu：切换为删除线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu：切换下划线",
+                    "target": "cMenu：切换为下划线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu：切换上标",
+                    "target": "cMenu：切换为上标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu：切换下标",
+                    "target": "cMenu：切换为下标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu：切换代码",
+                    "target": "cMenu：切换为代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu：切换代码块",
+                    "target": "cMenu：切换为代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cMenu：切换块引用",
+                    "target": "cMenu：切换块引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加嵌入",
+                    "target": "添加嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插入标记链接",
+                    "target": "插入标记链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加标签",
+                    "target": "添加标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加内部链接",
+                    "target": "添加内部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换粗体",
+                    "target": "切换粗体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换斜体",
+                    "target": "切换斜体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换删除线",
+                    "target": "切换删除线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换代码",
+                    "target": "切换代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换块引用",
+                    "target": "切换块引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换项目符号",
+                    "target": "切换项目符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换检查表状态",
+                    "target": "切换检查表状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换注释",
+                    "target": "切换注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换高亮显示",
+                    "target": "切换高亮显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换编号列表",
+                    "target": "切换编号列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隐藏/显示",
+                    "target": "隐藏/显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>",
+                    "target": "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "作者",
+                    "target": "作者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chetachi 👩🏽‍💻",
+                    "target": "Chetachi 👩🏽‍💻"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "插件设置",
+                    "target": "插件设置"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setPlaceholder(\"Choose an icon\")",
+                    "target": "setPlaceholder(\"Choose an icon\")"
+                },
+                {
+                    "source": "setName(\"cMenu附加方法\")",
+                    "target": "setName(\"cMenu附加方法\")"
+                },
+                {
+                    "source": "setDesc(\"选择cMenu在重新生成时附加的位置。要查看更改，请点击下面或状态栏菜单中的刷新按钮。\")",
+                    "target": "setDesc(\"选择cMenu在重新生成时附加的位置。要查看更改，请点击下面或状态栏菜单中的刷新按钮。\")"
+                },
+                {
+                    "source": "setName(\"cMenu美学\")",
+                    "target": "setName(\"cMenu美学\")"
+                },
+                {
+                    "source": "setDesc(\"在玻璃变形和cMenu的默认样式之间进行选择。要查看更改，请点击下面或状态栏菜单中的刷新按钮。\")",
+                    "target": "setDesc(\"在玻璃变形和cMenu的默认样式之间进行选择。要查看更改，请点击下面或状态栏菜单中的刷新按钮。\")"
+                },
+                {
+                    "source": "setName(\"cMenu列\")",
+                    "target": "setName(\"cMenu列\")"
+                },
+                {
+                    "source": "setDesc(\"选择要在cMenu上显示的每行的列数。要查看更改，请点击下面或状态栏菜单中的刷新按钮。\")",
+                    "target": "setDesc(\"选择要在cMenu上显示的每行的列数。要查看更改，请点击下面或状态栏菜单中的刷新按钮。\")"
+                },
+                {
+                    "source": "setName(\"c菜单刷新\")",
+                    "target": "setName(\"c菜单刷新\")"
+                },
+                {
+                    "source": "setDesc(\"cMenu只有在添加或删除命令后才会自动刷新。要查看cMenu的UI更改（以上设置更改），请使用刷新按钮。如果忘记刷新设置，不用担心。cMenu状态栏菜单中还有一个刷新按钮。\")",
+                    "target": "setDesc(\"cMenu只有在添加或删除命令后才会自动刷新。要查看cMenu的UI更改（以上设置更改），请使用刷新按钮。如果忘记刷新设置，不用担心。cMenu状态栏菜单中还有一个刷新按钮。\")"
+                },
+                {
+                    "source": "error('forwardRef render functions do not support propTypes or defaultProps. ' + 'Did you accidentally pass a React component?')",
+                    "target": "error('forwardRef render functions do not support propTypes or defaultProps. ' + 'Did you accidentally pass a React component?')"
+                },
+                {
+                    "source": "error('Calling useContext(Context.Provider) is not supported. ' + 'Did you mean to call useContext(Context) instead?')",
+                    "target": "error('Calling useContext(Context.Provider) is not supported. ' + 'Did you mean to call useContext(Context) instead?')"
+                },
+                {
+                    "source": "error('disabledDepth fell below zero. ' + 'This is a bug in React. Please file an issue.')",
+                    "target": "error('disabledDepth fell below zero. ' + 'This is a bug in React. Please file an issue.')"
+                },
+                {
+                    "source": "error('Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?', _name || 'Unknown')",
+                    "target": "error('Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?', _name || 'Unknown')"
+                },
+                {
+                    "source": "error('getDefaultProps is only used on classic React.createClass ' + 'definitions. Use a static property named `defaultProps` instead.')",
+                    "target": "error('getDefaultProps is only used on classic React.createClass ' + 'definitions. Use a static property named `defaultProps` instead.')"
+                },
+                {
+                    "source": "error('Received an unexpected object in getComponentName(). ' + 'This is likely a bug in React. Please file an issue.')",
+                    "target": "error('Received an unexpected object in getComponentName(). ' + 'This is likely a bug in React. Please file an issue.')"
+                },
+                {
+                    "source": "error('You provided a `value` prop to a form field without an ' + '`onChange` handler. This will render a read-only field. If ' + 'the field should be mutable use `defaultValue`. Otherwise, ' + 'set either `onChange` or `readOnly`.')",
+                    "target": "error('You provided a `value` prop to a form field without an ' + '`onChange` handler. This will render a read-only field. If ' + 'the field should be mutable use `defaultValue`. Otherwise, ' + 'set either `onChange` or `readOnly`.')"
+                },
+                {
+                    "source": "error('You provided a `checked` prop to a form field without an ' + '`onChange` handler. This will render a read-only field. If ' + 'the field should be mutable use `defaultChecked`. Otherwise, ' + 'set either `onChange` or `readOnly`.')",
+                    "target": "error('You provided a `checked` prop to a form field without an ' + '`onChange` handler. This will render a read-only field. If ' + 'the field should be mutable use `defaultChecked`. Otherwise, ' + 'set either `onChange` or `readOnly`.')"
+                },
+                {
+                    "source": "error('A component is `contentEditable` and contains `children` managed by ' + 'React. It is now your responsibility to guarantee that none of ' + 'those nodes are unexpectedly modified or duplicated. This is ' + 'probably not intentional.')",
+                    "target": "error('A component is `contentEditable` and contains `children` managed by ' + 'React. It is now your responsibility to guarantee that none of ' + 'those nodes are unexpectedly modified or duplicated. This is ' + 'probably not intentional.')"
+                },
+                {
+                    "source": "error('Unsupported style property %s. Did you mean %s?', name, // As Andi Smith suggests\r\n    // (http://www.andismith.com/blog/2012/02/modernizr-prefixed/), an `-ms` prefix\r\n    // is converted to lowercase `ms`.\r\n    camelize(name.replace(msPattern$1, 'ms-')",
+                    "target": "error('Unsupported style property %s. Did you mean %s?', name, // As Andi Smith suggests\r\n    // (http://www.andismith.com/blog/2012/02/modernizr-prefixed/), an `-ms` prefix\r\n    // is converted to lowercase `ms`.\r\n    camelize(name.replace(msPattern$1, 'ms-')"
+                },
+                {
+                    "source": "error('React uses onFocus and onBlur instead of onFocusIn and onFocusOut. ' + 'All React events are normalized to bubble, so onFocusIn and onFocusOut ' + 'are not needed/supported by React.')",
+                    "target": "error('React uses onFocus and onBlur instead of onFocusIn and onFocusOut. ' + 'All React events are normalized to bubble, so onFocusIn and onFocusOut ' + 'are not needed/supported by React.')"
+                },
+                {
+                    "source": "error('Directly setting property `innerHTML` is not permitted. ' + 'For more information, lookup documentation on `dangerouslySetInnerHTML`.')",
+                    "target": "error('Directly setting property `innerHTML` is not permitted. ' + 'For more information, lookup documentation on `dangerouslySetInnerHTML`.')"
+                },
+                {
+                    "source": "error('The `aria` attribute is reserved for future use in React. ' + 'Pass individual `aria-` attributes instead.')",
+                    "target": "error('The `aria` attribute is reserved for future use in React. ' + 'Pass individual `aria-` attributes instead.')"
+                },
+                {
+                    "source": "error('Only strings and numbers are supported as <option> children.')",
+                    "target": "error('Only strings and numbers are supported as <option> children.')"
+                },
+                {
+                    "source": "error('%s.getChildContext(): childContextTypes must be defined in order to ' + 'use getChildContext().', getComponentName(Component) || 'Unknown')",
+                    "target": "error('%s.getChildContext(): childContextTypes must be defined in order to ' + 'use getChildContext().', getComponentName(Component) || 'Unknown')"
+                },
+                {
+                    "source": "error('Unexpected pop.')",
+                    "target": "error('Unexpected pop.')"
+                },
+                {
+                    "source": "error('Use the `defaultValue` or `value` props instead of setting ' + 'children on <textarea>.')",
+                    "target": "error('Use the `defaultValue` or `value` props instead of setting ' + 'children on <textarea>.')"
+                },
+                {
+                    "source": "log(\"cMenu v\" + this.manifest.version + \" loaded\")",
+                    "target": "log(\"cMenu v\" + this.manifest.version + \" loaded\")"
+                },
+                {
+                    "source": "setTitle(\"隐藏和显示\")",
+                    "target": "setTitle(\"隐藏和显示\")"
+                },
+                {
+                    "source": "log(\"cMenu unloaded\")",
+                    "target": "log(\"cMenu unloaded\")"
+                },
+                {
+                    "source": "name: \"cMenu：切换粗体\"",
+                    "target": "name: \"cMenu：切换粗体\""
+                },
+                {
+                    "source": "name: \"cMenu：切换斜体\"",
+                    "target": "name: \"cMenu：切换斜体\""
+                },
+                {
+                    "source": "name: \"cMenu：切换删除线\"",
+                    "target": "name: \"cMenu：切换删除线\""
+                },
+                {
+                    "source": "name: \"cMenu：切换下划线\"",
+                    "target": "name: \"cMenu：切换下划线\""
+                },
+                {
+                    "source": "name: \"cMenu：切换上标\"",
+                    "target": "name: \"cMenu：切换上标\""
+                },
+                {
+                    "source": "name: \"cMenu：切换下标\"",
+                    "target": "name: \"cMenu：切换下标\""
+                },
+                {
+                    "source": "name: \"cMenu：切换代码\"",
+                    "target": "name: \"cMenu：切换代码\""
+                },
+                {
+                    "source": "name: \"cMenu：切换代码块\"",
+                    "target": "name: \"cMenu：切换代码块\""
+                },
+                {
+                    "source": "name: \"cMenu：切换块引用\"",
+                    "target": "name: \"cMenu：切换块引用\""
+                },
+                {
+                    "source": "name : ''",
+                    "target": "name : ''"
+                },
+                {
+                    "source": "name: 'filter'",
+                    "target": "name: 'filter'"
+                },
+                {
+                    "source": "name: 'choose'",
+                    "target": "name: 'choose'"
+                },
+                {
+                    "source": "name: 'start'",
+                    "target": "name: 'start'"
+                },
+                {
+                    "source": "name: 'clone'",
+                    "target": "name: 'clone'"
+                },
+                {
+                    "source": "name: 'change'",
+                    "target": "name: 'change'"
+                },
+                {
+                    "source": "name: 'unchoose'",
+                    "target": "name: 'unchoose'"
+                },
+                {
+                    "source": "name: 'add'",
+                    "target": "name: 'add'"
+                },
+                {
+                    "source": "name: 'sort'",
+                    "target": "name: 'sort'"
+                },
+                {
+                    "source": "name: 'update'",
+                    "target": "name: 'update'"
+                },
+                {
+                    "source": "name: 'end'",
+                    "target": "name: 'end'"
+                },
+                {
+                    "source": "text: \"cMenu\"",
+                    "target": "text: \"cMenu\""
+                },
+                {
+                    "source": "text: \"作者\"",
+                    "target": "text: \"作者\""
+                },
+                {
+                    "source": "text: \"Chetachi 👩🏽‍💻\"",
+                    "target": "text: \"Chetachi 👩🏽‍💻\""
+                },
+                {
+                    "source": "text: \"插件设置\"",
+                    "target": "text: \"插件设置\""
+                },
+                {
+                    "source": "name = 'Invariant Violation'",
+                    "target": "name = 'Invariant Violation'"
+                },
+                {
+                    "source": "name: `%s`",
+                    "target": "name: `%s`"
+                },
+                {
+                    "source": "name: 'className'",
+                    "target": "name: 'className'"
+                },
+                {
+                    "source": "name: 'name'",
+                    "target": "name: 'name'"
+                },
+                {
+                    "source": "name: 'attributeName'",
+                    "target": "name: 'attributeName'"
+                },
+                {
+                    "source": "name: 'glyphName'",
+                    "target": "name: 'glyphName'"
+                },
+                {
+                    "source": "link: 'xmlnsXlink'",
+                    "target": "link: 'xmlnsXlink'"
+                },
+                {
+                    "source": "text = ''",
+                    "target": "text = ''"
+                },
+                {
+                    "source": "name: \"添加嵌入\"",
+                    "target": "name: \"添加嵌入\""
+                },
+                {
+                    "source": "name: \"插入标记链接\"",
+                    "target": "name: \"插入标记链接\""
+                },
+                {
+                    "source": "name: \"添加标签\"",
+                    "target": "name: \"添加标签\""
+                },
+                {
+                    "source": "name: \"添加内部链接\"",
+                    "target": "name: \"添加内部链接\""
+                },
+                {
+                    "source": "name: \"切换粗体\"",
+                    "target": "name: \"切换粗体\""
+                },
+                {
+                    "source": "name: \"切换斜体\"",
+                    "target": "name: \"切换斜体\""
+                },
+                {
+                    "source": "name: \"切换删除线\"",
+                    "target": "name: \"切换删除线\""
+                },
+                {
+                    "source": "name: \"切换代码\"",
+                    "target": "name: \"切换代码\""
+                },
+                {
+                    "source": "name: \"切换块引用\"",
+                    "target": "name: \"切换块引用\""
+                },
+                {
+                    "source": "name: \"切换项目符号\"",
+                    "target": "name: \"切换项目符号\""
+                },
+                {
+                    "source": "name: \"切换检查表状态\"",
+                    "target": "name: \"切换检查表状态\""
+                },
+                {
+                    "source": "name: \"切换注释\"",
+                    "target": "name: \"切换注释\""
+                },
+                {
+                    "source": "name: \"切换高亮显示\"",
+                    "target": "name: \"切换高亮显示\""
+                },
+                {
+                    "source": "name: \"切换编号列表\"",
+                    "target": "name: \"切换编号列表\""
+                },
+                {
+                    "source": "name: \"隐藏/显示\"",
+                    "target": "name: \"隐藏/显示\""
+                },
+                {
+                    "source": "name: `Toggle ${type}`",
+                    "target": "name: `Toggle ${type}`"
+                },
+                {
+                    "source": "name: `${type[\"name\"]}`",
+                    "target": "name: `${type[\"name\"]}`"
+                },
+                {
+                    "source": "text: \"Bottom\"",
+                    "target": "text: \"Bottom\""
+                }
+            ]
+        }
+    }
+}
